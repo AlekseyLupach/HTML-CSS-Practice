@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(199, 247, 255);
+}
+
+.under {
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 10px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+h3:target {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+}
+
+.links {
+    display: inline-block;
+    background-color: white;
+    height: 145px;
+    width: 170px;
+    border: solid 1px;
+}
+
+.backgorund-links {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    border: solid 1px;
+}
+
+.articles {
+    display: inline-block;
+    background-color: rgb(180, 180, 180);
+    height: 170px;
+    width: 210px;
+    border: solid 1px;
+    margin: 5px;
+}
+
+.backgorund-art {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.backgorund-art2 {
+    background-color: grey;
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
