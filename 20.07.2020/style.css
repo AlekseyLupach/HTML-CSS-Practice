@@ -1,0 +1,29 @@
+.first-div {
+    width: 300px;
+    height: 200px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 1.2em;
+    background-image: url("bulb.png");
+    background-repeat: no-repeat;
+    background-position: right 0.5em top 0;
+    background-size: contain;
+    padding: .1em;
+    margin: .5em .5em 0 .5em;
+}
+
+.last-div {
+    height: 70%;
+    overflow: auto;
+    padding: 0.5em 3.5em 0.5em 0.5em;
+    background-color: #ffc;
+    border-radius: 5px;
+    border: double .5em rgba(0, 102, 255, .1);
+    padding: 0.1em;
+    background-clip: content-box;
+}
