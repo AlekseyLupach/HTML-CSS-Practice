@@ -639,6 +639,7 @@ hr {
 	top: 0;
 	left: 0;
 	border-radius: 20px;
+	object-fit: cover;
 }
 
 .gallery__card::after {
