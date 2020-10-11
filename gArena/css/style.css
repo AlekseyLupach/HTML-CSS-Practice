@@ -62,7 +62,7 @@ hr {
 }
 
 .upbtn:hover {
-	transform: scale(1.2)!important;
+	transform: scale(1.2) !important;
 }
 
 /* UP BUTTON style end */
@@ -159,7 +159,8 @@ hr {
 	display: flex;
 }
 
-.header__list li:nth-child(8) a, .header__list li:nth-child(9) a {
+.header__list li:nth-child(8) a,
+.header__list li:nth-child(9) a {
 	color: rgb(16, 89, 255, 1);
 }
 
@@ -252,7 +253,12 @@ hr {
 	margin-bottom: 100px;
 }
 
-.services__wrapper-text h1:before, .equipment__title:before, .price__title:before, .contacts__title:before, .events__title:before, .news__title:before {
+.services__wrapper-text h1:before,
+.equipment__title:before,
+.price__title:before,
+.contacts__title:before,
+.events__title:before,
+.news__title:before {
 	background: url(../images/before-h2.png);
 	width: 70px;
 	height: 70px;
@@ -633,9 +639,7 @@ hr {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: -1;
 	border-radius: 20px;
-	object-fit: cover;
 }
 
 .gallery__card::after {
@@ -682,7 +686,8 @@ hr {
 	transition: all .15s ease-in-out;
 }
 
-.gallery__card-wrapper a, p {
+.gallery__card-wrapper a,
+p {
 	margin: auto 0 0 0;
 }
 
@@ -812,12 +817,16 @@ hr {
 	filter: brightness(100%);
 }
 
-.fa-instagram, .fa-facebook-official, .fa-twitter {
+.fa-instagram,
+.fa-facebook-official,
+.fa-twitter {
 	opacity: 0.5;
 	transition: all .3s;
 }
 
-.fa-instagram:hover, .fa-facebook-official:hover, .fa-twitter:hover {
+.fa-instagram:hover,
+.fa-facebook-official:hover,
+.fa-twitter:hover {
 	opacity: 1;
 }
 
