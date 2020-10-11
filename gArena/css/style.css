@@ -387,7 +387,7 @@ hr {
 	width: 190px;
 	max-height: 0;
 	font-family: 'GothamProLight';
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 14px;
 	text-transform: uppercase;
 	transition: max-height 0.5s linear;
