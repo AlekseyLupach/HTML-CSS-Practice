@@ -1,4 +1,5 @@
-.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
 	height: 575px;
 	width: 430px;
 }
@@ -15,13 +16,15 @@ label {
 	display: inline;
 }
 
-.login__form, .registration__form {
+.login__form,
+.registration__form {
 	background: linear-gradient(rgba(35, 43, 85, 0.75), rgba(35, 43, 85, 0.95));
 	border-radius: 5px;
 	box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);
 }
 
-.login__form-logo, .registration__form-logo {
+.login__form-logo,
+.registration__form-logo {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -47,7 +50,8 @@ label {
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.login__form, .registration__form {
+.login__form,
+.registration__form {
 	padding-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -92,7 +96,7 @@ label {
 	color: #ffffff;
 	font-size: 14px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	text-transform: uppercase;
 	outline: none;
 	cursor: pointer;
@@ -131,7 +135,8 @@ label {
 
 .forgot {
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 input[id=KeepSignedIn] {

@@ -702,9 +702,9 @@ p {
 
 .tournaments {
 	background: linear-gradient(90deg, rgba(8, 5, 134, 1) 0%, rgba(130, 0, 62, 1) 40%, rgba(2, 1, 62, 1) 100%);
-	min-height: 500px;
 	width: 100%;
-	padding-top: 80px
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .tournaments__wrapper {
@@ -725,7 +725,6 @@ p {
 
 .tournaments__text {
 	max-width: 600px;
-	line-height: 18px;
 	text-transform: uppercase;
 	font-size: 16px;
 }
@@ -811,6 +810,8 @@ p {
 	position: relative;
 	filter: brightness(40%);
 	transition: all .5s ease-in-out;
+	max-width: 100%;
+	height: 460px;
 }
 
 .maps__wrapper:hover {
