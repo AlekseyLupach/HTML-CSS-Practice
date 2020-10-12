@@ -62,6 +62,12 @@ $(window).on("load", function () {
 	$("#navigation-menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
 		highlightSelector: "#navigation-menu a"
 	});
+	$("#header__text-button a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: "#header__text-button a"
+	});
+	$("#services__text-button a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: "#services__text-button a"
+	});
 });
 // smooth scrolling end
 
