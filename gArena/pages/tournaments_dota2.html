@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="../css/animate.css">
 	<link rel="stylesheet" type="text/css" href="../css/form-log-reg.css">
-	<link rel="stylesheet" type="text/css" href="../css/adaptiv.css">
+	<link rel="stylesheet" type="text/css" href="../css/adaptiv-index.css">
 	<link rel="stylesheet" type="text/css" href="../css/burger-menu.css">
 	<link rel="stylesheet" type="text/css" href="../css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/owl.style.css">
@@ -27,7 +27,15 @@
 		.news__text-title {
 			font-family: 'FuturaNewBoldObl';
 			font-size: 44px;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
+			color: #4D9BD5;
+		}
+
+		.news__text-subtitle {
+			font-family: 'FuturaNewBoldObl';
+			font-size: 24px;
+			margin-bottom: 10px;
+			color: #b15994;
 		}
 
 		.news__text-wrapper p {
@@ -42,7 +50,13 @@
 
 		.news__dota2-wrapper img {
 			margin-top: 60px;
-			width: 100%;
+			max-width: 100%;
+		}
+
+		@media screen and (max-width:1200px) {
+			.header {
+				background: none;
+			}
 		}
 	</style>
 </head>
@@ -97,11 +111,11 @@
 	<main>
 		<section class="news__dota2 container wow fadeInUp" data-wow-delay=".3s">
 			<div class="news__dota2-wrapper">
-				<img src="../images/news/bg5.jpg" alt="" class="">
+				<img src="../images/news/bg5.jpg">
 				<div class="news__text-wrapper">
 					<h2 class="news__text-title">Турнир Dota 2</h2>
-					<p>Правила турнира:<br>
-						Регистрационный взнос (с 1 человека): 15 BYN<br>
+					<h4 class="news__text-subtitle">Правила турнира:</h4>
+					<p>Регистрационный взнос (с 1 человека): 15 BYN<br>
 						Стартовый проходной ММР для участия: 3500<br><br>
 
 						Формат проведения: Double Ellimination<br><br>
@@ -149,6 +163,7 @@
 					</p>
 				</div>
 			</div>
+		</section>
 	</main>
 
 	<footer class="footer">
@@ -176,8 +191,8 @@
 		<div class="login__form-wrapper">
 			<input type="text" name="username" class="form__input" placeholder="Логин">
 			<input type="password" name="password" class="form__input" placeholder="Пароль">
-			<input class="checkboxinput" type="checkbox" name="KeepSignedIn" id="KeepSignedIn">
-			<label class="checkbox" for="KeepSignedIn" class="KeepIn">Запомнить меня</label>
+			<input class="checkboxinput" type="checkbox" name="remember-me" id="remember-me">
+			<label class="checkbox" for="remember-me">Запомнить меня</label>
 			<button type="submit" class="form__singin">Войти</button>
 			<hr class="form__hr">
 		</div>
@@ -198,8 +213,8 @@
 			<input type="text" name="loginname" class="form__input" placeholder="Логин">
 			<input type="password" name="password" class="form__input" placeholder="Пароль">
 			<input type="email" name="password" class="form__input" placeholder="Email">
-			<input class="checkboxinput" type="checkbox" name="KeepSignedIn" id="KeepSignedIn">
-			<label class="checkbox" for="KeepSignedIn" class="KeepIn">Я согласен с <a href=""
+			<input class="checkboxinput" type="checkbox" name="i-agree" id="i-agree">
+			<label class="checkbox" for="i-agree">Я согласен с <a href="!#"
 					class="checkbox__conditions">условиями</a></label>
 			<button type="submit" class="form__singin">Зарегистрироваться</button>
 		</div>
@@ -214,7 +229,7 @@
 	<script src="../js/jquery.malihu.PageScroll2id.min.js"></script>
 	<script src="../js/owl.carousel.js"></script>
 	<script src="../js/main.js"></script>
-	<script src="https://kit.fontawesome.com/7c51dfb56c.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/7c51dfb56c.js"></script>
 </body>
 
 </html>

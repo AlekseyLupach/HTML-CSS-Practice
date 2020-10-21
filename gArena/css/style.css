@@ -177,6 +177,10 @@ hr {
 	color: #c02a82;
 }
 
+.header__list li:nth-child(7) a {
+	color: white;
+}
+
 .header__text-title {
 	font-family: 'GothamProBlack';
 	font-size: 48px;
@@ -690,7 +694,7 @@ hr {
 }
 
 .gallery__card-wrapper a,
-p {
+.gallery__card-wrapper p {
 	margin: auto 0 0 0;
 }
 
@@ -734,6 +738,7 @@ p {
 
 .tournaments__text p {
 	max-width: 500px;
+	line-height: 20px;
 }
 
 .tournaments__text h3 {
