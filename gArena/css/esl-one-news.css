@@ -212,7 +212,7 @@
 .tournament__grid {
 	font-size: 14px;
 	color: black;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .tournament__grid-wrapper {
