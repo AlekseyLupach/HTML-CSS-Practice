@@ -173,7 +173,8 @@ hr {
 	transition: color .3s;
 }
 
-.header__link:hover {
+.header__link:hover,
+.services__text-button:hover {
 	color: #c02a82;
 }
 
@@ -851,7 +852,7 @@ hr {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 40px 0;
+	padding: 40px 15px;
 }
 
 .footer__wrapper p {
