@@ -118,11 +118,11 @@
 }
 
 .row__team-win {
-	background: linear-gradient(90deg, rgba(0, 255, 128, 0.6) 0%, rgba(0, 255, 12, 0) 100%);
+	background: linear-gradient(90deg, rgba(0, 255, 128, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .row__team-lose {
-	background: linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0%, rgba(0, 255, 12, 0) 100%);
+	background: linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .row__numb-lose {
@@ -213,8 +213,6 @@
 	font-size: 14px;
 	color: black;
 	overflow: auto;
-	margin: 0 auto;
-	background: black;
 }
 
 .tournament__grid-wrapper {
