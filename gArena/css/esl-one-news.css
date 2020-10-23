@@ -4,27 +4,27 @@
 	height: 120px;
 }
 
-.esl__one-main {
-	margin-top: 20px;
+.esl__one-fullinfo {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-}
-
-.esl__one-main ul li {
-	text-decoration: solid;
 	font-size: 16px;
-	line-height: 20px;
-	font-family: 'GothamProLight';
+	line-height: 22px;
 }
 
-.esl__one-main ul li ul {
-	margin-bottom: 20px;
+.esl__one-group span,
+.esl__one-playoff span {
+	font-size: 26px;
 }
 
-.esl__one-main span {
-	font-size: 20px;
-	font-family: 'GothamProBold';
+.fullinfo__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	order: 1;
+}
+
+.esl__one-fullinfo img {
+	order: 2;
 }
 
 .esl__one-title {
@@ -212,6 +212,9 @@
 .tournament__grid {
 	font-size: 14px;
 	color: black;
+	overflow: auto;
+	margin: 0 auto;
+	background: black;
 }
 
 .tournament__grid-wrapper {
@@ -224,7 +227,7 @@
 .tournament__grid-bottom {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 1170px;
 }
 
 .match li {
@@ -343,7 +346,6 @@
 
 /* Tournament__grid style end */
 
-
 /* ========= Adaptiv start ========= */
 
 @media screen and (max-width: 1200px) {
@@ -352,41 +354,10 @@
 	}
 }
 
-@media screen and (max-width: 870px) {
-	.tournament__grid {
-		font-size: 12px;
-	}
-
-	.round__number,
-	.group__tabel p {
-		font-size: 14px;
-	}
-
-	.fa-trophy {
-		bottom: 60px;
-	}
-}
-
-@media screen and (max-width: 780px) {
-	.round__number {
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	.match li {
-		margin-left: 10px;
-	}
-
-	.match li img {
-		width: 15px;
-	}
-
+@media screen and (max-width: 766px) {
 	.esl__one-info p {
 		font-size: 16px;
 	}
-}
-
-@media screen and (max-width: 766px) {
 
 	.esl__one-title,
 	.tournament__grid-title,
@@ -395,9 +366,23 @@
 	}
 
 	.esl__one-info,
-	.esl__one-main,
+	.esl__one-fullinfo,
 	.stream__name {
 		flex-direction: column;
+	}
+
+
+	.fullinfo__wrapper {
+		order: 2;
+	}
+
+	.esl__one-fullinfo img {
+		order: 1;
+		margin-bottom: 20px;
+	}
+
+	.esl__one-group {
+		margin-bottom: 20px;
 	}
 
 	.esl__one-pic {
@@ -419,61 +404,10 @@
 	.tournament__grid-title,
 	.group__tabel-title,
 	.esl__one-info,
-	.tournament__grid-wrapper {
+	.tournament__grid-wrapper,
+	.esl__one-group {
 		margin-bottom: 20px;
 		margin-top: 20px;
-	}
-}
-
-@media screen and (max-width: 660px) {
-
-	.fa-trophy {
-		bottom: 50px;
-		font-size: 35px;
-	}
-
-	.match li {
-		padding: 5px;
-		margin-left: 10px;
-	}
-
-	.match li img {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 475px) {
-	.tournament__grid-bottom .tournament__round-three .match {
-		padding-top: 30px;
-	}
-
-	.tournament__grid-bottom .tournament__round-four .match {
-		padding-top: 20px;
-	}
-
-	.fa-trophy {
-		bottom: 65px;
-		font-size: 25px;
-	}
-
-	.round__number {
-		font-size: 8px;
-		line-height: 8px;
-	}
-
-	.match li {
-		margin-left: 5px;
-	}
-}
-
-@media screen and (max-width: 376px) {
-	.match li {
-		padding: 1px;
-		margin-left: 5px;
-	}
-
-	.fa-trophy {
-		bottom: 40px;
 	}
 }
 
