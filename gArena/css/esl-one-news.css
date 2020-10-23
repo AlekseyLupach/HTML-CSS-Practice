@@ -204,7 +204,7 @@
 
 /* Tournament__grid style start */
 
-
+.tournament__round-one ul,
 .tournament__grid-bottom .tournament__round-two .match {
 	margin-top: 40px;
 }
@@ -231,14 +231,7 @@
 
 .match li {
 	background-color: #fff;
-	padding-left: 5px;
-	margin-bottom: 3px;
 	padding: 6px;
-	position: relative;
-	margin-left: 20px;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
 }
 
 .match li .score {
