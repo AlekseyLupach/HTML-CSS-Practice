@@ -102,6 +102,13 @@
 
 .row div {
 	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.row img {
+	width: 16px;
+	margin-right: 5px;
 }
 
 .row__team-win {
@@ -149,6 +156,42 @@
 	top: 12px;
 	color: white;
 	left: 8px;
+}
+
+.group__tabel p {
+	font-size: 16px;
+}
+
+.group__tabel-green::before {
+	background: rgba(0, 255, 128, 0.8);
+	width: 12px;
+	height: 12px;
+	content: ' ';
+	display: inline-block;
+	top: 0;
+	right: 0;
+	color: white;
+	border-radius: 50%;
+	margin-right: 5px;
+
+}
+
+.group__tabel-red {
+	margin-bottom: 10px;
+}
+
+.group__tabel-red::before {
+	background: rgba(255, 0, 0, 1);
+	width: 12px;
+	height: 12px;
+	content: ' ';
+	display: inline-block;
+	top: 0;
+	right: 0;
+	color: white;
+	border-radius: 50%;
+	margin-right: 5px;
+
 }
 
 /* Tabel-group style end */
@@ -211,7 +254,8 @@
 	margin-bottom: 20px;
 }
 
-.tournament__grid-title {
+.tournament__grid-title,
+.group__tabel-title {
 	color: #fff;
 	font-size: 44px;
 	font-family: 'GothamProBold';
@@ -307,7 +351,8 @@
 		font-size: 12px;
 	}
 
-	.round__number {
+	.round__number,
+	.group__tabel p {
 		font-size: 14px;
 	}
 
@@ -338,7 +383,8 @@
 @media screen and (max-width: 766px) {
 
 	.esl__one-title,
-	.tournament__grid-title {
+	.tournament__grid-title,
+	.group__tabel-title {
 		font-size: 26px;
 	}
 
@@ -365,6 +411,7 @@
 
 	.esl__one-title,
 	.tournament__grid-title,
+	.group__tabel-title,
 	.esl__one-info,
 	.tournament__grid-wrapper {
 		margin-bottom: 20px;
