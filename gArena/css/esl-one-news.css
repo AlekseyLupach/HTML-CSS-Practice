@@ -18,6 +18,10 @@
 	font-family: 'GothamProLight';
 }
 
+.esl__one-main ul li ul {
+	margin-bottom: 20px;
+}
+
 .esl__one-main span {
 	font-size: 20px;
 	font-family: 'GothamProBold';
@@ -55,6 +59,7 @@
 .esl__one-info p span {
 	color: #3F915F;
 }
+
 
 /* Header style end */
 
@@ -100,7 +105,8 @@
 	border: 1px white solid;
 }
 
-.row div {
+.row div,
+.tabel__info {
 	padding: 10px;
 	display: flex;
 	align-items: center;
