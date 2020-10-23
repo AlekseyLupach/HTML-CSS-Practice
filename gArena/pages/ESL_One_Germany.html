@@ -545,7 +545,7 @@
 				event.target.innerHTML = "Показать";
 			}
 		})
-		var countDownDate = new Date('10-29-2020 18:30')
+		var countDownDate = new Date('2020-10-29T18:30')
 
 		var intervalID = setInterval(function () {
 			var currentDate = new Date();
@@ -597,16 +597,7 @@
 
 		document.getElementById("timer").innerHTML = GetTime();
 
-		function GetTime() {
-			var d = new Date();
-			var nhour = d.getHours(), nmin = d.getMinutes();
-			if (nmin <= 9) {
-				nmin = "0" + nmin
-			}
-			return nhour + ":" + nmin + "";
-		}
 
-		setInterval(GetTime, 1000); // run GetTime every 1000ms
 	</script>
 </body>
 
