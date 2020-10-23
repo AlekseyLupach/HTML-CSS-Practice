@@ -234,6 +234,9 @@
 	margin-bottom: 3px;
 	margin-left: 20px;
 	padding: 6px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 .match li .score {
