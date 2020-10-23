@@ -235,9 +235,7 @@
 	padding: 6px;
 	position: relative;
 	margin-left: 20px;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+
 }
 
 .match li .score {
@@ -367,7 +365,6 @@
 	.stream__name {
 		flex-direction: column;
 	}
-
 
 	.fullinfo__wrapper {
 		order: 2;
