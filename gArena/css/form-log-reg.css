@@ -237,17 +237,29 @@ input[type=checkbox]:checked+.checkbox::before {
 		font-size: 12px;
 		padding-left: 80px;
 	}
+
+	.login__form,
+	.registration__form {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 @media screen and (max-width:420px) {
 
 	.login__form,
 	.registration__form {
-		max-width: 300px;
+		max-width: 310px;
 	}
 
 	.mfp-inline-holder .mfp-content,
 	.mfp-ajax-holder .mfp-content {
-		width: 300px;
+		width: 310px;
+	}
+
+	.login__form,
+	.registration__form {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
