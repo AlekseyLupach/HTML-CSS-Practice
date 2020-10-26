@@ -220,7 +220,7 @@ input[type=checkbox]:checked+.checkbox::before {
 
 	.login__form,
 	.registration__form {
-		max-width: 300px;
+		max-width: 400px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -229,12 +229,25 @@ input[type=checkbox]:checked+.checkbox::before {
 
 	.mfp-inline-holder .mfp-content,
 	.mfp-ajax-holder .mfp-content {
-		width: 300px;
+		width: 400px;
 		height: auto;
 	}
 
 	.checkbox {
 		font-size: 12px;
 		padding-left: 80px;
+	}
+}
+
+@media screen and (max-width:420px) {
+
+	.login__form,
+	.registration__form {
+		max-width: 300px;
+	}
+
+	.mfp-inline-holder .mfp-content,
+	.mfp-ajax-holder .mfp-content {
+		width: 300px;
 	}
 }
