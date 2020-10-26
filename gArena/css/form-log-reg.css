@@ -220,7 +220,7 @@ input[type=checkbox]:checked+.checkbox::before {
 
 	.login__form,
 	.registration__form {
-		max-width: 400px;
+		max-width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -229,7 +229,7 @@ input[type=checkbox]:checked+.checkbox::before {
 
 	.mfp-inline-holder .mfp-content,
 	.mfp-ajax-holder .mfp-content {
-		width: 400px;
+		width: 100%;
 		height: auto;
 	}
 
@@ -245,21 +245,3 @@ input[type=checkbox]:checked+.checkbox::before {
 	}
 }
 
-@media screen and (max-width:420px) {
-
-	.login__form,
-	.registration__form {
-		max-width: 310px;
-	}
-
-	.mfp-inline-holder .mfp-content,
-	.mfp-ajax-holder .mfp-content {
-		width: 310px;
-	}
-
-	.login__form,
-	.registration__form {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}
