@@ -387,6 +387,21 @@
 		margin-top: 20px;
 		height: 200px;
 	}
+
+	.login__form,
+	.registration__form {
+		max-width: 420px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.mfp-inline-holder .mfp-content,
+	.mfp-ajax-holder .mfp-content {
+		width: 420px;
+		height: auto;
+	}
 }
 
 /* **********************************
@@ -424,20 +439,10 @@
 	.login__form,
 	.registration__form {
 		max-width: 320px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
 	}
 
 	.mfp-inline-holder .mfp-content,
 	.mfp-ajax-holder .mfp-content {
 		width: 320px;
-		height: auto;
-	}
-
-	.checkbox {
-		padding-left: 80px;
-		font-size: 14px;
 	}
 }
