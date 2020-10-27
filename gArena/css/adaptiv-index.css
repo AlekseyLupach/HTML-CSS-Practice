@@ -261,7 +261,11 @@
 
 @media screen and (max-width:767px) {
 	h1 {
-		font-size: 26px;
+		font-size: 26px !important;
+	}
+
+	.header__text-title {
+		font-size: 34px;
 	}
 
 	.services__wrapper-title::after,
