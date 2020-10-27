@@ -26,7 +26,8 @@
 	border-radius: 30px
 }
 
-.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
 	background: #FFF
 }
 
@@ -42,7 +43,8 @@
 	position: relative;
 }
 
-.js-prev, .js-next {
+.js-prev,
+.js-next {
 	position: absolute;
 	background: none;
 	color: white;
@@ -51,7 +53,8 @@
 	transition: opacity .2s ease-in-out;
 }
 
-.js-prev:hover, .js-next:hover {
+.js-prev:hover,
+.js-next:hover {
 	opacity: 1;
 }
 
@@ -62,6 +65,8 @@
 .js-next {
 	right: 0px;
 }
+
+
 
 /**
  * Owl Carousel button style end

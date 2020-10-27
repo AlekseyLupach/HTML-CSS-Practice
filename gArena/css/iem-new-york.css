@@ -1,5 +1,4 @@
-/* Header style start */
-
+/************************ Header style start ************************/
 .header {
 	height: 120px;
 }
@@ -121,9 +120,9 @@
 	margin-bottom: 20px;
 }
 
-/* Header style end */
+/************************ Header style end ************************/
 
-/* Stream style start */
+/************************ Stream style start ************************/
 
 .stream__twitch {
 	display: none;
@@ -149,9 +148,9 @@
 	color: rgba(0, 255, 128, 0.8);
 }
 
-/* Stream style end */
+/************************ Stream style end ************************/
 
-/* Tabel-group style start */
+/************************ Tabel-group style start ************************/
 .group__tabel {
 	margin-top: 40px;
 	width: 100%;
@@ -307,10 +306,10 @@
 
 }
 
-/* Tabel-group style end */
+/************************ Tabel-group style end ************************/
 
 
-/* Tournament-grid style start */
+/************************ Tournament-grid style start ************************/
 .tournament__round-one ul,
 .tournament__grid-bottom .tournament__round-two .match {
 	margin-top: 40px;
@@ -435,10 +434,9 @@
 	opacity: 1;
 }
 
-/* Tournament-grid style end */
+/************************ Tournament-grid style end ************************/
 
-
-/* ========= Adaptiv start ========= */
+/************************ Adaptiv style start ************************/
 
 @media screen and (max-width: 1200px) {
 	.header {
@@ -519,4 +517,4 @@
 	}
 }
 
-/* ========= Adaptiv end ========= */
+/************************ Adaptiv style end ************************/
