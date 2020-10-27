@@ -240,7 +240,6 @@ input[type=checkbox]:checked+.checkbox::before {
 	}
 
 	.checkbox {
-		font-size: 12px;
 		padding-left: 80px;
 	}
 
