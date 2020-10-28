@@ -18,8 +18,8 @@ $(document).ready(function () {
 
 // smooth scrolling start
 $(window).on("load", function () {
-	$(".header__li a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-		highlightSelector: ".header__li a"
+	$(".header__item a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: ".header__item a"
 	});
 	$(".header__text-button,header__text-button[href='#top'],header__text-button[rel='m_PageScroll2id']").mPageScroll2id({
 		highlightSelector: ".header__text-button"
@@ -46,7 +46,7 @@ $(window).scroll(function () {
 $('.up-button').on('click', function () {
 	$('html, body').animate({
 		scrollTop: 0
-	}, 500);
+	}, 600);
 	return false;
 });
 
