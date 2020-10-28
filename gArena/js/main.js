@@ -18,14 +18,14 @@ $(document).ready(function () {
 
 // smooth scrolling start
 $(window).on("load", function () {
-	$("#header__li a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-		highlightSelector: "#header__li a"
+	$(".header__li a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: ".header__li a"
 	});
-	$("#header__text-button a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-		highlightSelector: "#header__text-button a"
+	$(".header__text-button,header__text-button[href='#top'],header__text-button[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: ".header__text-button"
 	});
-	$("#services__text-button a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-		highlightSelector: "#services__text-button a"
+	$(".services__text-button,.services__text-button[href='#top'],.services__text-button[rel='m_PageScroll2id']").mPageScroll2id({
+		highlightSelector: ".services__text-button"
 	});
 });
 // smooth scrolling end
