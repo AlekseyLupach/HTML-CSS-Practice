@@ -39,4 +39,3 @@ var intervalID = setInterval(function () {
 		document.getElementById("timer").innerHTML = "Live!";
 	}
 }, 1000)
-document.getElementById("timer").innerHTML = GetTime();
