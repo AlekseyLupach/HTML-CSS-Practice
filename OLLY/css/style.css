@@ -280,7 +280,7 @@
  .face__cleaning {
      padding-top        : 60px;
      padding-bottom     : 60px;
-     background-image   : url(/images/cosmetic/asdd.jpeg);
+     background-image   : url(../images/cosmetic/asdd.jpeg);
      background-size    : 14%;
      background-repeat  : no-repeat;
      background-position: right bottom;
@@ -472,7 +472,7 @@
  .cosmetic {
      padding-top        : 60px;
      padding-bottom     : 60px;
-     background-image   : url(/images/cosmetic/skin-white.png);
+     background-image   : url(../images/cosmetic/skin-white.png);
      background-size    : 14%;
      background-repeat  : no-repeat;
      background-position: right bottom;
