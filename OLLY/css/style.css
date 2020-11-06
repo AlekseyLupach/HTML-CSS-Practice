@@ -4,10 +4,8 @@
  /* font css */
  @import url("../font/stylesheet.css");
 
- /* video-background style */
+ /* up-button style */
  @import url("up-button-style.css");
-
- @import url("form-log-reg.css");
 
  body {
      background : white;
@@ -135,10 +133,6 @@
      margin-bottom: 40px;
  }
 
- .header__right-wrapper img {
-     width: 500px;
- }
-
  .header__left-wrapper p {
      font-size: 24px;
  }
@@ -190,6 +184,66 @@
      color     : black;
  }
 
+ /* Header-pic */
+
+ .header__pic {
+     position       : relative;
+     overflow       : hidden;
+     display        : inline-block;
+     cursor         : pointer;
+     top            : -120%;
+     transition     : top 0.25s cubic-bezier(0, 0.3, 1, 0.7);
+     box-shadow     : 0px 5px 4px -4px rgba(0, 0, 0, 0.4), 10px 4px 10px -8px rgba(0, 0, 0, 0.2), -10px 4px 10px -8px rgba(0, 0, 0, 0.2);
+     background-size: cover;
+     animation      : blick 5s infinite;
+     animation-delay: 3s;
+     border-radius  : 10px;
+ }
+
+ .header__pic img {
+     width: 500px;
+ }
+
+ @keyframes blick {
+     0% {
+         top: - 120%
+     }
+
+     10% {
+         top: 120%;
+     }
+
+     100% {
+         top: 120%;
+     }
+ }
+
+ .header__pic:before,
+ .header__pic:after {
+     content : '';
+     display : block;
+     position: absolute;
+     height  : 100%;
+     z-index : 999;
+ }
+
+ .header__pic:before {
+     width           : 140%;
+     top             : inherit;
+     left            : -20%;
+     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #ffffff 40%, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0));
+     transform       : rotate(-20deg);
+ }
+
+ .header__pic:after {
+     width           : 100%;
+     top             : 0;
+     border-radius   : 50%;
+     background-image: radial-gradient(35% 25%, closest-corner, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+ }
+
+ /* Header-pic */
+
  /* Header style end */
 
  /* Price style start */
@@ -225,6 +279,12 @@
      margin-bottom        : 40px;
  }
 
+ .switch__button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
  .price__row-name div {
      border       : 1px transparent solid;
      text-align   : center;
@@ -241,12 +301,14 @@
      font-size            : 16px;
      color                : black;
      background-color     : transparent;
-
  }
 
  .price__row-info div {
-     text-align: center;
-     padding   : 10px;
+     text-align     : center;
+     padding        : 12px;
+     display        : flex;
+     justify-content: center;
+     align-items    : center;
  }
 
  .price__row-info:nth-child(2n) {
