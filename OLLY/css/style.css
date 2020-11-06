@@ -93,12 +93,25 @@
      font-weight    : 600;
  }
 
+ .header__logo {
+     text-align: center;
+ }
+
  .header__logo p {
      font-size              : 64px;
      text-transform         : uppercase;
-     background             : linear-gradient(180deg, rgba(255, 0, 110, 1) 0%, rgba(255, 0, 110, 1) 50%, rgba(49, 0, 21, 1) 100%);
+     background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+     font-weight            : 900;
+ }
+
+ .header__logo span {
+     font-size              : 22px;
+     background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     align-items            : center;
  }
 
  .header__text-wrapper {
