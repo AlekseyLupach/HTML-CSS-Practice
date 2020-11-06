@@ -31,7 +31,7 @@
  }
 
  .up-button__size {
-     background: rgba(0, 0, 0, 0.7);
+     background: #FE4275;;
  }
 
  .up-button__inside {
@@ -40,8 +40,8 @@
      left           : 2px;
      width          : 36px;
      height         : 36px;
-     color          : rgba(0, 0, 0, 0.7);
-     background     : #FE4275;
+     color          : #FE4275;;
+     background     : #ff97b3;
      border-radius  : 50%;
      display        : flex;
      align-items    : center;

@@ -154,7 +154,9 @@
      font-size  : 34px;
  }
 
- .header__text-button {
+ .header__text-button,
+ .price__reg-button,
+ .instagram__grallery-button {
      animation: radial-pulse 1.4s infinite;
  }
 
@@ -187,15 +189,6 @@
      background: #F7F7F7;
      color     : black;
  }
-
- .header__item .fa-phone {
-     color: #FE4275;
- }
-
- .header__phone:hover {
-     color: black;
- }
-
 
  /* Header style end */
 
@@ -257,7 +250,7 @@
  }
 
  .price__row-info:nth-child(2n) {
-     background: transparent;
+     background: #ffbdcf;
  }
 
  .depilation__button,
@@ -286,12 +279,12 @@
  }
 
  .switch__button:hover {
-     background: #FE4476;
+     background: #ff97b3;
      color     : white;
  }
 
  .switch__button.active {
-     background: #FE4476;
+     background: #ff97b3;
      color     : white;
  }
 
@@ -356,14 +349,14 @@
      justify-content: center;
      margin-left    : 5px;
      margin-right   : 5px;
-     border         : 1px solid #FE4476;
+     border         : 1px solid #ff97b3;
  }
 
  .face__circle::before {
      content      : '';
      display      : block;
      border-radius: 50%;
-     background   : #FE4476;
+     background   : #ff97b3;
      width        : 10px;
      height       : 10px;
      align-self   : center;
@@ -419,7 +412,7 @@
  }
 
  .questions__button-wrapper i {
-     color: #FE4476;
+     color: #ff97b3;
  }
 
  /* questions style end  */
@@ -533,7 +526,6 @@
  .contacts__wrapper {
      display        : flex;
      justify-content: space-between;
-     align-items    : center;
  }
 
  .contacts__title {
@@ -545,7 +537,15 @@
      text-transform: uppercase;
      margin-bottom : 5px;
      font-weight   : 600;
-     color         : #FE4275;
+     color         : #ff97b3;
+ }
+
+ .contacts__item i {
+     transition: .2s ease-in-out;
+ }
+
+ .contacts__item i:hover {
+     color: #ff97b3;
  }
 
  .maps__wrapper {
