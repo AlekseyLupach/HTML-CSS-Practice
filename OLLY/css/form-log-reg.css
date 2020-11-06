@@ -1,0 +1,114 @@
+/* Magnific-popup.css */
+@import url("magnific-popup.css");
+
+/* send form style start */
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+	height: 575px;
+	width : 380px;
+}
+
+.mfp-close-btn-in .mfp-close {
+	color: black;
+}
+
+.mfp-wrap {
+	top: 40px;
+}
+
+.send__form {
+	background   : rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow   : 0px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.send__form-logo {
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+	margin-bottom  : 20px;
+}
+
+.send__form {
+	padding-top  : 30px;
+	padding-left : 30px;
+	padding-right: 30px;
+}
+
+.form__input {
+	width        : 100%;
+	background   : #f7ccd8;
+	border       : none;
+	height       : 35px;
+	border-radius: 20px;
+	color        : black;
+	font-size    : 15px;
+	padding-left : 40px;
+	box-sizing   : border-box;
+}
+
+.form__input:focus {
+	outline   : none;
+	background: #f7ccd8;
+}
+
+.form__singin {
+	width           : 100%;
+	background-color: #FE4275;
+	border          : none;
+	height          : 35px;
+	border-radius   : 20px;
+	color           : #ffffff;
+	font-size       : 14px;
+	margin-bottom   : 30px;
+	text-transform  : uppercase;
+	outline         : none;
+	cursor          : pointer;
+	font-weight     : 600;
+	transition      : all .3s;
+	box-shadow      : 1px 1px 1px 0px rgba(50, 50, 50, 0.4);
+}
+
+.send__form-wrapper button {
+	margin-bottom: 30px;
+}
+
+.form__singin:hover {
+	background-color: white;
+	color           : black
+}
+
+
+.send__input-wrapper {
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+	position       : relative;
+	padding-bottom : 20px;
+}
+
+.send__input-wrapper .fa-user,
+.send__input-wrapper .fa-phone {
+	position: absolute;
+	left    : 15px;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+:-ms-input-placeholder {
+	color: black;
+}
+
+::-moz-placeholder {
+	color  : black;
+	opacity: 1;
+}
+
+:-moz-placeholder {
+	color  : black;
+	opacity: 1;
+}
+
+/* send style end*/
