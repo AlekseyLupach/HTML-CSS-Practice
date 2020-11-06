@@ -355,6 +355,10 @@
      text-align: center;
  }
 
+ .price__info-kompleks {
+     font-weight: 700;
+ }
+
  /* Price style end */
 
  /* face__cleaning style start */
