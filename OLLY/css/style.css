@@ -54,7 +54,7 @@
  }
 
  h1 span {
-     background             : linear-gradient(180deg, rgba(255, 0, 110, 1) 0%, rgba(255, 0, 110, 1) 50%, rgba(49, 0, 21, 1) 100%);
+    background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
  }
@@ -128,7 +128,9 @@
  }
 
  .header__text-wrapper i {
-     color: #FE4476;
+    background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
 
  .header__text-wrapper p:nth-child(6) {
