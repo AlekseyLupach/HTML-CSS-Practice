@@ -54,7 +54,7 @@
  }
 
  h1 span {
-    background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
+     background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
  }
@@ -71,8 +71,6 @@
  .contacts {
      background: linear-gradient(90deg, rgba(255, 218, 228, 1) 0%, rgba(235, 235, 235, 1) 100%);
  }
-
-
 
  /* Header style start */
 
@@ -128,9 +126,9 @@
  }
 
  .header__text-wrapper i {
-    background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+     background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
  }
 
  .header__text-wrapper p:nth-child(6) {
@@ -156,10 +154,24 @@
      font-size  : 34px;
  }
 
+ .header__text-button {
+     animation: radial-pulse 1.4s infinite;
+ }
+
+ @keyframes radial-pulse {
+     0% {
+         box-shadow: 0 0 0 0px rgb(255, 255, 255);
+     }
+
+     100% {
+         box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+     }
+ }
+
  .header__text-button,
  .price__reg-button,
  .instagram__grallery-button {
-     background    : #FE4275;
+     background    : #ff97b3;
      padding       : 25px 35px;
      border-radius : 50px;
      color         : white;
