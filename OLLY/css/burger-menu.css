@@ -1,6 +1,6 @@
 /* Hamburger style Header start */
 
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 1020px) {
     body.lock {
         overflow: hidden;
     }
