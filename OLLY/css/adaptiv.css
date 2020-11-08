@@ -192,7 +192,7 @@
 	.questions__right-wrapper button {
 		font-weight: 600;
 		font-size  : 16px;
-		align-items: center;
+		align-items: left;
 	}
 
 	.maps__wrapper {
@@ -228,7 +228,4 @@
 	.instagram__grallery-button {
 		font-size: 16px;
 	}
-
-
-
 }

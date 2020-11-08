@@ -28,8 +28,8 @@
  }
 
  .read__button-name {
-	 display: flex;
-	 justify-content: space-between;
+ 	display        : flex;
+ 	justify-content: space-between;
  }
 
  .questions__left-wrapper button,
