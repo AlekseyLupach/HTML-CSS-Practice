@@ -188,13 +188,6 @@
 		grid-template-columns: 1fr;
 	}
 
-	.questions__left-wrapper button,
-	.questions__right-wrapper button {
-		font-weight: 600;
-		font-size  : 16px;
-		align-items: left;
-	}
-
 	.maps__wrapper {
 		height: 220px;
 	}
@@ -209,6 +202,13 @@
 
 	.contacts__wrapper {
 		flex-direction: column;
+	}
+
+	.read__button-name {
+		display        : flex;
+		align-items    : center;
+		justify-content: center;
+		width          : 90%;
 	}
 }
 
@@ -226,6 +226,11 @@
 	.header__text-button,
 	.price__reg-button,
 	.instagram__grallery-button {
+		font-size: 16px;
+	}
+
+	.questions__left-wrapper button,
+	.questions__right-wrapper button {
 		font-size: 16px;
 	}
 }

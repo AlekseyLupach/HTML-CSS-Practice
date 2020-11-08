@@ -27,7 +27,7 @@
  	display    : none;
  }
 
- .read__button-name {
+ .read__button-wrapper {
  	display        : flex;
  	justify-content: space-between;
  }
@@ -38,6 +38,7 @@
  	font-size    : 20px;
  	background   : none;
  	width        : 100%;
+ 	min-height   : 80px;
  	padding      : 20px;
  	margin       : 10px;
  	border       : 1px solid #f5f4f4;
