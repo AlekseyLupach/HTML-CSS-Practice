@@ -4,6 +4,10 @@
  	padding-bottom: 20px;
  }
 
+ .questions__title {
+ 	margin-bottom: 10px;
+ }
+
  .questions__button-wrapper {
  	display        : flex;
  	justify-content: space-between;
