@@ -5,13 +5,17 @@
         overflow: hidden;
     }
 
+    .header__logo p {
+        font-size: 44px;
+    }
+
     .header__burger {
         display : block;
         width   : 30px;
         height  : 20px;
         position: absolute;
         right   : 0;
-        top     : 40%;
+        top     : 60%;
         z-index : 50;
     }
 

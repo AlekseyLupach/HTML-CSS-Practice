@@ -1,8 +1,4 @@
 @media screen and (max-width: 1320px) {
-	.header__list {
-		width: 100% !important;
-	}
-
 	.cosmetic {
 		padding-top     : 60px;
 		padding-bottom  : 60px;
