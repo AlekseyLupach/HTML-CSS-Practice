@@ -1,0 +1,40 @@
+/* cosmetic style start */
+
+.cosmetic {
+	padding-top        : 60px;
+	padding-bottom     : 60px;
+	background-image   : url(../images/cosmetic/skin-white.png);
+	background-size    : 14%;
+	background-repeat  : no-repeat;
+	background-position: right bottom;
+	position           : relative;
+}
+
+.owl-carousel {
+	position: relative;
+}
+
+.gallery__card {
+	overflow  : hidden;
+	position  : relative;
+	color     : #ffffff;
+	transition: all .2s;
+	transform : scale(0.9);
+	height    : 140px;
+}
+
+.gallery__card:hover {
+	transform: scale(1);
+}
+
+.gallery__card img {
+	width        : 100%;
+	height       : 100%;
+	position     : absolute;
+	top          : 0;
+	left         : 0;
+	border-radius: 20px;
+	object-fit   : cover;
+}
+
+/* cosmetic style end */
