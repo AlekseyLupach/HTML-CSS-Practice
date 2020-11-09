@@ -14,9 +14,11 @@
 	justify-content: space-between;
 	width          : 800px;
 	align-items    : center;
-	font-weight    : 600;
-	font-size      : 20px;
+	font-weight    : 500;
+	font-size      : 24px;
 }
+
+
 
 .header__logo {
 	text-align: center;
