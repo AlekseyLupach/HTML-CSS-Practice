@@ -140,11 +140,6 @@
 		justify-content: flex-start;
 	}
 
-	.header__text-wrapper p:nth-child(6),
-	.instagram__grid {
-		margin-bottom: 10px;
-	}
-
 	.face__cleaning,
 	.price,
 	.questions,
@@ -177,8 +172,14 @@
 		height: 220px;
 	}
 
-	.price__row-name {
+	.price__row-name,
+	.price__table,
+	.instagram__grid {
 		margin-bottom: 20px;
+	}
+
+	.header__text-wrapper p:nth-child(6) {
+		margin-bottom: 10px;
 	}
 
 	.instagram__grallery-button i {
