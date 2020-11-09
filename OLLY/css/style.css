@@ -74,9 +74,8 @@
  }
 
  h1 {
-     font-family  : 'Berlingske Serif';
-     font-weight  : bold;
-     font-style   : italic;
+     font-weight  : 500;
+     font-style   : normal;
      text-align   : center;
      font-size    : 32px;
      margin-bottom: 5px;

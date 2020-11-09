@@ -136,9 +136,7 @@
 		width: 100%;
 	}
 
-	.header__list {
-		font-weight: 600;
-	}
+
 
 	.header__left-wrapper span p {
 		justify-content: flex-start;
@@ -199,6 +197,12 @@
 		align-items    : center;
 		justify-content: center;
 		width          : 90%;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.instagram__grid {
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 	}
 }
 

@@ -14,13 +14,12 @@
 	justify-content: center;
 }
 
-
-
 .face__cleaning-text {
 	display        : flex;
 	flex-direction : column;
 	justify-content: space-around;
 	font-style     : 18px;
+	width          : 300px;
 }
 
 .face__cleaning-text p {
