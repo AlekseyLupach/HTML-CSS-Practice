@@ -198,15 +198,22 @@
 		justify-content: center;
 		width          : 90%;
 	}
+
+	.instagram__grid {
+		grid-auto-rows: 80px;
+	}
 }
 
 @media screen and (max-width: 490px) {
 	.instagram__grid {
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 	}
 }
 
 @media screen and (max-width: 400px) {
+	.instagram__grid {
+		grid-auto-rows: 70px;
+	}
 
 	.header__left-wrapper span p,
 	h1 {
