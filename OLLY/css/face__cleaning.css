@@ -21,8 +21,6 @@
 	flex-direction : column;
 	justify-content: space-around;
 	font-style     : 18px;
-	font-family    : 'Roboto', sans-serif;
-	font-weight    : 400;
 }
 
 .face__cleaning-text p {

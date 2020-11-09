@@ -36,10 +36,18 @@
  	justify-content: space-between;
  }
 
+ .read__button-name {
+ 	font-weight: 600;
+ 	font-size  : 18px;
+ }
+
+ .read__button-text {
+ 	font-size  : 16px;
+ 	font-weight: 500px;
+ }
+
  .questions__left-wrapper button,
  .questions__right-wrapper button {
- 	font-weight  : 700;
- 	font-size    : 20px;
  	background   : none;
  	width        : 100%;
  	min-height   : 80px;
