@@ -95,6 +95,10 @@
 		display: none;
 	}
 
+	.face__cleaning-text p {
+		padding: 3px;
+	}
+
 	.questions__button-wrapper {
 		display: block;
 	}
