@@ -68,12 +68,13 @@
     }
 
     .header__list {
-        position  : absolute;
-        width     : 100%;
-        top       : 50%;
-        text-align: center;
-        transform : translate(0, -50%);
-        display   : block;
+        position   : absolute;
+        width      : 100%;
+        top        : 50%;
+        text-align : center;
+        transform  : translate(0, -50%);
+        display    : block;
+        font-weight: 600;
     }
 
     .header__list li {

@@ -136,6 +136,10 @@
 		width: 100%;
 	}
 
+	.header__list {
+		font-weight: 600;
+	}
+
 	.header__left-wrapper span p {
 		justify-content: flex-start;
 	}
